@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "content-consistency"
+version = "0.1.0"
+description = ""
+authors = ["dorgold46 <dgoldenberg@lightricks.com>"]
+readme = "README.md"
+packages = [{include = "content_consistency"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
